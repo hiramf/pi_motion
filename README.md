@@ -7,7 +7,7 @@ You will need an understanding of Raspberry Pi, python, command line interface, 
 - Raspberry Pi 3
 - PiCamera v2
 - Monitor/TV
-Optional
+#### Optional
 - Physical Keyboard
 - Adjustable tripod
 - [PiCamera tripod mount](https://www.adafruit.com/product/3253)
