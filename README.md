@@ -30,8 +30,9 @@ Optional
 source activate py34
 python motion.py --conf --conf.json
 ```
-If using headless mode (`show_video`), you may get an error `Out of resources` if you try to run the program after quitting. Restarting the Pi will fix this. Currently working on a better solution...
-Increasing the GPU memory with `sudo raspi-config` to `256` or `512` may improve performance
+If using headless mode (`show_video`), you may get an error `Out of resources` if you try to run the program after quitting. Restarting the Pi will fix this. I'm currently working on a better solution...
+
+Increasing the GPU memory with `sudo raspi-config` to `256` or `512` may improve performance.
 
 ## Authors
 * Hiram Foster
