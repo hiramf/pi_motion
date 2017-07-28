@@ -25,12 +25,12 @@ You will need an understanding of Raspberry Pi, python, command line interface, 
 - dropbox
 
 ## Deployment
-[Follow this guide.](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/)
+[Follow this guide for details.](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/)
 ```
 source activate py34
 python motion.py --conf --conf.json
 ```
-If using headless mode (`show_video`), you may get an error `Out of resources` if you try to run the program after quitting. Restarting the Pi will fix this. I'm currently working on a better solution...
+When using headless mode (`show_video`), you may get an error `Out of resources` if you try to run the program after quitting. Restarting the Pi will fix this. I'm currently working on a better solution...
 
 Increasing the GPU memory with `sudo raspi-config` to `256` or `512` may improve performance.
 
