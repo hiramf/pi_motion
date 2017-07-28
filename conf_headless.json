@@ -1,5 +1,6 @@
 {
 	"show_video": false,
+	"dropbox_access_token": "",
 	"use_dropbox": true,
 	"min_upload_seconds": 1.5,
 	"min_motion_frames": 4,
