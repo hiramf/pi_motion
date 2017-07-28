@@ -18,7 +18,8 @@ args = vars(ap.parse_args())
 warnings.filterwarnings("ignore")
 conf = json.load(open(args["conf"]))
 
-dbx = dropbox.Dropbox("-Y6P1w4QzLAAAAAAAAAADkqIQsUOvQlGb1Q8NnEvKVA6N0Vng-NDtdxjOW8x92oo")
+token = input("Enter Access Token")
+dbx = dropbox.Dropbox(token)
 
 # initialize camera
 camera = PiCamera()
