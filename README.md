@@ -28,8 +28,8 @@ You will need an understanding of Raspberry Pi, python, command line interface, 
 [Follow this guide for details.](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/)
 
 Configure Settings:
-> show_video : A boolean indicating whether or not the video stream from the Raspberry Pi should be displayed to our screen.
-> use_dropbox : Boolean indicating whether or not the Dropbox API integration should be used.
+> - show_video : A boolean indicating whether or not the video stream from the Raspberry Pi should be displayed to our screen.
+> - use_dropbox : Boolean indicating whether or not the Dropbox API integration should be used.
 > dropbox_access_token: Access token from Dropbox App
 > dropbox_base_path : The name of your Dropbox App directory that will store uploaded images.
 > min_upload_seconds : The number of seconds to wait in between uploads. For example, if an image was uploaded to Dropbox 5m 33s after starting our script, a second image would not be uploaded until 5m 36s. This parameter simply controls the frequency of image uploads.
