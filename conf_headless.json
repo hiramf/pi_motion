@@ -1,0 +1,13 @@
+{
+	"show_video": false,
+	"use_dropbox": true,
+	"min_upload_seconds": 1.5,
+	"min_motion_frames": 4,
+	"camera_warmup_time": 3.5,
+	"delta_thresh": 10,       
+	"resolution": [1620, 1232],
+	"fps": 16,
+	"min_area": 500,
+	"dropbox_base_path": "/motion"
+}
+
