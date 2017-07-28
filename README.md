@@ -42,7 +42,7 @@ Configure Settings:
 
 ```
 source activate py34
-python motion.py --conf --conf.json
+python motion.py --conf --conf_headless.json
 ```
 When using headless mode (`show_video`), you may get an error `Out of resources` if you try to run the program after quitting. Restarting the Pi will fix this. I'm currently working on a better solution...
 
