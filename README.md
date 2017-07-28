@@ -15,7 +15,7 @@ You will need an understanding of Raspberry Pi, python, command line interface, 
 
 ### Software Requirements
 - [OpenCV](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/) (this is complex)
-- A Virtual Environment with Python 3 (the tutorial uses `virtualenv`, but I used `miniconda3`)
+- A Virtual Environment with Python 3 (the tutorial uses `virtualenv`, but I used [`miniconda3`](https://github.com/Microsoft/ELL/blob/master/tutorials/vision/gettingStarted/compiling-Pi3.md))
 - [Working Camera](http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/)
 
 ### Special Python Modules Used
